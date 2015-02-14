@@ -6,6 +6,6 @@ Template.myLibraryPage.events({
     Session.set("anchorImage", this.name);
     Session.set("modalImage", this.image);
     Session.set("selectedImageId", this._id);
-    Session.set("selectedImage", this);
+    Session.set("selectedImage", this.profile.avatar);
   }
 });

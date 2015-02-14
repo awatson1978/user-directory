@@ -1,7 +1,7 @@
 Template.assetsDisplayTemplate.helpers({
   selected_image: function(){
     if(Session.get("selectedImage")){
-      return Session.get("selectedImage").image;
+      return Session.get("selectedImage");
       // return 'images/grays.anatomy.tiles/' + Session.get("anchorImage") + '.png'
     }else{
       return "images/placeholder-640x480.png";

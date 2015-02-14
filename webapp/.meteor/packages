@@ -10,6 +10,8 @@ spiderable
 jquery
 insecure
 less
+
+accounts-base
 accounts-password
 accounts-ui
 
@@ -19,3 +21,4 @@ natestrauser:font-awesome
 
 clinical:ui-vocabulary
 clinical:nightwatch
+clinical:accounts-famous-dead-people

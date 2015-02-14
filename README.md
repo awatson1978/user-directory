@@ -1,17 +1,13 @@
-image-link-archive
+womens-history-month
 =================
 
-A basic image link archive.  Intended to be used as a repository of medical-illustration images or as a thumbnails interface for a PACS archive.  Currently a single-page app.  Next update will include basic CRUD pattern.
-
-![travis-build](https://travis-ci.org/awatson1978/image-link-archive.svg?branch=master)  
-
-![Scheduling Screenshot](https://raw.githubusercontent.com/awatson1978/image-link-archive/master/public/image-link-archive-screenshot.png)  
+A basic image library of famous women for Women's History Month.
 
 
 ============================
 #### Meteor Version  
 
-1.0
+1.0.3.1
 
 ============================
 #### Installation  
@@ -19,8 +15,8 @@ A basic image link archive.  Intended to be used as a repository of medical-illu
 
 ````sh
 # Should be as simple as cloning the repository...  
-git clone https://github.com/awatson1978/image-link-archive.git
-cd image-link-archive
+git clone https://github.com/awatson1978/womens-history-month.git
+cd womens-history-month
 
 # And then running it...
 meteor
