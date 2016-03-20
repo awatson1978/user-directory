@@ -1,0 +1,21 @@
+<template name="sidebar">
+  <section id="sidebar" class="sidebarMenu">
+
+    <div id="sidebarMenuContents" class="sidebarMenuContents">
+
+        <a id="libraryStreamButton" href="/">Featured Users</a>
+        <a id="myLibraryButton" href="/mylibrary" class="withLowerBorder">User Review</a>
+
+        <a id="usersLink" href="/list/users" >Users</a>
+        <a id="myProfileLink" href="/myprofile" class="withLowerBorder">My Profile</a>
+        <a id="themingLink" class="sidebarMenuItem withLowerBorder">Theming</a>
+
+
+        <div id="connectionStatusPanel" class="centered">
+          {{getConnectionStatus}}
+        </div>
+
+
+    </div>
+  </section>
+</template>

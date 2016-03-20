@@ -10,15 +10,15 @@
   "forms":                true,
   "buttons":              true,
   "button-groups":        true,
-  "input-groups":         true,
+  "input-groups":         false,
   "navs":                 true,
   "navbar":               true,
   "list-group":           true,
   "panels":               true,
   "wells":                true,
   "modals":               true,
-  "button":               true,
-  
+  "button":               false,
+
   "glyphicons":           false,
   "breadcrumbs":          false,
   "pagination":           false,

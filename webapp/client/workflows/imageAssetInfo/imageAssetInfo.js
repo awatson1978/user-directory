@@ -1,10 +1,11 @@
+Session.setDefault('selectedImageId', false);
+
 Template.assetsDisplayTemplate.helpers({
-  selected_image: function(){
+  getSelectedAvatar: function(){
     if(Session.get("selectedImage")){
       return Session.get("selectedImage");
-      // return 'images/grays.anatomy.tiles/' + Session.get("anchorImage") + '.png'
     }else{
-      return "images/placeholder-640x480.png";
+      return "/packages/clinical_active-users/public/Default_User.png";
     }
   }
 });
